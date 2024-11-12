@@ -1,0 +1,39 @@
+.homepage {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#stars,
+#stars2,
+#stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-8000px);
+  }
+}
+
+/* Mobile screen styles */
+@media (max-width: 768px) {
+  .homepage {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+  }
+}

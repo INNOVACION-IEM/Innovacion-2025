@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Ethnocentric;
+    src: url("./fonts/Ethnocentric.otf");
+  }
+  @font-face {
+    font-family: Megatrans;
+    src: url("./fonts/Megatrans.otf");
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
